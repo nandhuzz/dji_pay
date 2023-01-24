@@ -44,7 +44,6 @@ function App() {
     setGrandTotal(sum)
   }, [items])
 
-
   return (
     <div className="App">
       <h1>ALDA Pay</h1>
@@ -59,7 +58,7 @@ function App() {
         <tbody>
           {items.map((item, index) =>
             <tr key={index}>
-              <td>{item.name}</td>
+              <td className='itemName'>{item.name}</td>
               <td>{item.price}</td>
               <td>
                 <button onClick={()=>handleMinus(index)}> -</button>
