@@ -1,6 +1,6 @@
 export const config = {
-    upiId: process.env.UPIID,
-    name: process.env.NAME,
+    upiId: process.env.REACT_APP_UPIID,
+    name: process.env.REACT_APP_NAME,
     data : [
         {
             id: 1,
